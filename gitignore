@@ -1,0 +1,44 @@
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.rpyc
+
+# Ignore packaged Ren'Py archive files
+*.rpa
+
+# Ignore temporary Ren'Py cache and build files
+cache/
+renpy-build/
+**/cache/
+
+# Ignore log files
+*.log
+log.txt
+
+# Ignore build distributions (Windows, macOS, Linux exports)
+windows/
+mac/
+linux/
+web/
+android/
+ios/
+
+# Ignore specific Ren'Py configuration files
+saves/
+**/persistent
+config.ini
+errors.txt
+
+# Ignore project metadata files
+.project
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore backups and temporary files
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
